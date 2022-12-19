@@ -37,6 +37,22 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+        // начало третьего блока задания
+        var firstFighter = 78.2;
+        var secondFighter = 82.7;
+        System.out.println(firstFighter + secondFighter);
+        System.out.println(secondFighter - firstFighter);
+    // вычетаем вес спротсменов от большего к меньшему с помошью %
+        System.out.println(secondFighter % firstFighter);
+        // выполнение задачи по количеству часов на сотрудника.
+        var totalWorkingHours = 640;
+        var employee = 8;
+        var totalNumberOfEmployees = totalWorkingHours / employee;
+        System.out.println("всего работников в компании - " + totalNumberOfEmployees + " человек");
+        var addingEmployees = totalNumberOfEmployees + 94;
+        var totalTime = (totalWorkingHours / addingEmployees);
+        System.out.println("если в компании работает " + addingEmployees + " человек, то всего " + totalTime + " часов работы может быть поделено между сотрудниками");
     }
+
 
 }
